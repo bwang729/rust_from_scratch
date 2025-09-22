@@ -1,3 +1,4 @@
+const MAX_POINTS: u32 = 100_000;
 fn main() {
     println!("Hello, world!");
     let mut x: i32 = 5;
@@ -19,4 +20,5 @@ fn main() {
     let space = "    ";
     let space = space.len();
     println!("The length of space is: {}", space);
+    println!("The value of MAX_POINTS is: {}", MAX_POINTS);
 }
